@@ -29,7 +29,7 @@ export default function Acconysent(){
   const nombre = data.Cardnumber
     return (
       <div>
-        <NavLink to='/pagina-perfil'><Back><img src={r5} alt=""/></Back>
+        <NavLink to='/Walled'><Back><img src={r5} alt=""/></Back>
         <Textacon1>Payment</Textacon1></NavLink>
         <Boxcou2>
       {data.map(consola=>

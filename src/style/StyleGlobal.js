@@ -400,11 +400,11 @@ export const InputT1 = styled.input.attrs(({
 
   `
   export const Re5 = styled.div`
-  position: absolute;
-    width: 417px;
-    height: 266px;
-    left: 15px;
-    top: 458px;
+  position: unset;
+  width: 800px;
+  height: 220px;
+  left: 0px;
+  top: 0px;
 
   `
   export const Re3 = styled.div`
@@ -694,16 +694,16 @@ export const Apbari = styled.div`
 
 export const Apbari2 = styled.div`
   position: absolute;
-  left: 33.33%;
-  right: 61.54%;
+  left: 25.33%;
+  right: 30.54%;
   top: 20.26%;
   bottom: 1.9%;
   
 `
 export const Apbari3 = styled.div`
   position: absolute;
-  left: 60.51%;
-  right: 33.33%;
+  left: 65.51%;
+  right: 25.33%;
   top: 20.26%;
   bottom: 1.9%;
 
@@ -714,6 +714,15 @@ export const Apbari4 = styled.div`
   position: absolute;
   left: 88.72%;
   right: 5.9%;
+  top: 20.26%;
+  bottom: 1.9%;
+  
+`
+export const Apbari5 = styled.div`
+  
+position: absolute;
+  left: 45.72%;
+  right: 40.9%;
   top: 20.26%;
   bottom: 1.9%;
   
@@ -905,19 +914,19 @@ color: #4B4B4B;
 `
 export const BtNext = styled.div`
 
-/* Rectangle 47 */
+/* Rectangle 1 */
 
 
 position: absolute;
-width: 358px;
-height: 32px;
-left: 16px;
-top: 772px;
+left: 4.1%;
+right: 4.1%;
+top: 87.68%;
+bottom: 7.11%;
 
-/* Main color */
+/* Main color (gradient) */
 
-background: #B4FFD8;
-border-radius: 109px;
+background: linear-gradient(92.67deg, #BFC3FC 0.11%, #A2C3FC 100%);
+border-radius: 15px;
 `
 
 export const BoxPre = styled.div`
@@ -1322,4 +1331,140 @@ padding: 15px 0;
 background: linear-gradient(92.67deg, #BFC3FC 0.11%, #A2C3FC 100%);
 opacity: 0.5;
 border-radius: 15px;
+`
+export const Textin = styled.div`
+
+/* Macbook air 2015 core i3 */
+
+
+position: absolute;
+width: 150px;
+height: 16px;
+left: 16px;
+top: 255px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #000000;
+`
+export const Precio = styled.div`
+
+/* 759 $ */
+
+
+position: absolute;
+width: 40px;
+height: 19px;
+left: 16px;
+top: 277px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.3px;
+
+/* Main dark color */
+
+color: #474747;
+
+`
+export const Btninfo1 = styled.div`
+
+/* Call button */
+
+
+position: absolute;
+width: 171px;
+height: 32px;
+left: 16px;
+top: 312px;
+
+`
+export const Btninfo2 = styled.div`
+
+position: absolute;
+width: 171px;
+height: 32px;
+left: 203px;
+top: 312px;
+
+`
+export const TitleD = styled.div`
+
+/* Description */
+
+
+position: absolute;
+width: 70px;
+height: 16px;
+left: 160px;
+top: 360px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #000000;
+
+
+`
+export const TextD = styled.div`
+
+/* Description */
+
+
+position: absolute;
+width: 358px;
+height: 180px;
+left: 16px;
+top: 392px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: -0.3px;
+
+/* Main dark color */
+
+color: #474747;
+
+
+`
+export const MapD = styled.div`
+
+
+position: absolute;
+width: 358px;
+height: 80px;
+left: 16px;
+top: 614px;
+;
+
+
+`
+export const MapD2 = styled.div`
+
+position: absolute;
+width: 358px;
+height: 176px;
+left: 16px;
+top: 710px;
+
 `
