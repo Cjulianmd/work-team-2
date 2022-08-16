@@ -914,19 +914,19 @@ color: #4B4B4B;
 `
 export const BtNext = styled.div`
 
-/* Rectangle 1 */
+/* Rectangle 47 */
 
 
 position: absolute;
-left: 4.1%;
-right: 4.1%;
-top: 87.68%;
-bottom: 7.11%;
+width: 358px;
+height: 32px;
+left: 16px;
+top: 772px;
 
-/* Main color (gradient) */
+/* Main color */
 
-background: linear-gradient(92.67deg, #BFC3FC 0.11%, #A2C3FC 100%);
-border-radius: 15px;
+background: #B4FFD8;
+border-radius: 109px;
 `
 
 export const BoxPre = styled.div`

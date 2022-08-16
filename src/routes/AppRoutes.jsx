@@ -8,7 +8,7 @@ import Pag3 from '../containers/Pag3'
 import Home from '../containers/information'
 import Very from '../containers/veryfication' 
 import Filtro from '../containers/filtrert' 
-import Transation from '../components/transation'
+
 import Walled from '../components/walled'
 import Addwalled from '../components/addwalled'
 class AppRoutes extends Component {
@@ -24,7 +24,6 @@ class AppRoutes extends Component {
                     <Route path="/Filtro" element={<Filtro/>}/>
                     <Route path="/information" element={<Home/>}/>
                     <Route path="/veryfication" element={<Very/>}/>
-                    <Route path="/Transation" element={<Transation/>}/>
                     <Route path="/Walled" element={<Walled/>}/>
                     <Route path="/Addwalled" element={<Addwalled/>}/>
                 </Routes>

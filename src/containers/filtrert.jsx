@@ -1,9 +1,12 @@
 
 import React from 'react';
-import { TextC, InputE, InputP1, BtNext, BtpreN  } from '../style/StyleGlobal'
+import { TextC, InputE, InputP1, BtNext, BtpreN, Back  } from '../style/StyleGlobal'
 import {NavLink} from 'react-router-dom'
 import ApBar from '../components/apbar'
 import { TitleC, InputN, InputT1 } from '../style/StyleGlobal';
+import { Textacon1 } from './../style/StyleGlobal';
+import r5 from '../assets/img/flecha.svg'
+import r6 from '../assets/img/flecha1.svg'
  /*handleChange  = async evt => {
         await this.setState({
            form: {
@@ -18,11 +21,10 @@ function Filtrert (){
      // window.location.href="./Singin"
         return (
             <>
-         <TitleC>
-            Create new Account
-         </TitleC>
+            <NavLink to='/Walled'><Back><img src={r5} alt=""/></Back>
+        <Textacon1><img src={r6} alt=""/></Textacon1></NavLink>
          <TextC>
-         Create a new account by filling in all the fields or log in to an existing account
+         Price
          </TextC>
          <form onSubmit={event => {
             event.preventDefault()
@@ -34,7 +36,7 @@ function Filtrert (){
             <InputT1 name="telefono" placeholder="phone number" size="2em" />
             <InputP1 name="password" placeholder="Password" size="2em"  />
          </form>
-         <BtNext onClick={() => this.registrer()}><center><BtpreN>Show result</BtpreN></center></BtNext>
+         <BtNext onClick={() => this.registrer()}><center><BtpreN>Show</BtpreN></center></BtNext>
                 <ApBar/>
             </>
         );
