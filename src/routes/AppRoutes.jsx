@@ -8,11 +8,9 @@ import Preguntas from '../components/preguntas'
 import S from '../components/actualizar'
 import Splashscreen from '../containers/Splashscreen';
 import Winc from '../components/coinswin'
-import Back from '../containers/back';
 import Pag1 from '../containers/Pag1'
 import Pag2 from '../containers/Pag2'
 import Pag3 from '../containers/Pag3'
-import Registrer from '../containers/create'
 import Home from '../containers/home'
 import Very from '../containers/veryfication' 
 import Elementari from '../components/elementari'
@@ -33,8 +31,6 @@ class AppRoutes extends Component {
                     <Route path="/Pag1" element={<Pag1/>}/>
                     <Route path="/Pag2" element={<Pag2/>}/>
                     <Route path="/Pag3" element={<Pag3/>}/>
-                    <Route path="/Singin" element={<Back/>}/>
-                    <Route path="/registrer" element={<Registrer/>}/>
                     <Route path="/home" element={<Home/>}/>
                     <Route path="/veryfication" element={<Very/>}/>
                     <Route path="/pagina-perfil" element={<Pagp/>}/>
@@ -51,8 +47,6 @@ class AppRoutes extends Component {
                     <Route path="/transation" element={<Transation/>}/>
                     <Route path="/walled" element={<Walled/>}/>
                     <Route path="/addwalled" element={<Addwalled/>}/>
-                    
-                
                 </Routes>
             </BrowserRouter>
         );
