@@ -265,28 +265,42 @@ text-fill-color: transparent;
 `
 
 export const InputN = styled.input.attrs(props => ({
-    type: "text"
+    type: "select"
   }))`
-  box-sizing: border-box;
-  padding: 10px;
-  position: absolute;
-    width: 358px;
-    height: 44px;
-    left: 16px;
-    top: 272px;
-  border-radius: 15px;
+  /* Rectangle 65 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 358px;
+height: 32px;
+left: 16px;
+top: 114px;
+
+/* Main color */
+
+border: 1px solid #B4FFD8;
+border-radius: 151px;
   `;
   export const InputE = styled.input.attrs(props => ({
-    type: "text"
+    type: "select"
   }))`
+  /* Rectangle 66 */
+
+
   box-sizing: border-box;
-  padding: 10px;
+  
   position: absolute;
-    width: 358px;
-    height: 44px;
-    left: 16px;
-    top: 326px;
-  border-radius: 15px;
+  width: 358px;
+  height: 32px;
+  left: 16px;
+  top: 156px;
+  
+  /* Main color */
+  
+  border: 1px solid #B4FFD8;
+  border-radius: 151px;
   `;
   
   export const TitleC = styled.div`
@@ -343,27 +357,37 @@ export const InputT1 = styled.input.attrs(({
     type: "number"
   }))`
   box-sizing: border-box;
-    padding: 10px;
-    position: absolute;
-        width: 358px;
-        height: 44px;
-        left: 16px;
-        top: 380px;
-    border-radius: 15px;
+
+position: absolute;
+width: 171px;
+height: 32px;
+left: 16px;
+top: 230px;
+
+/* Main color */
+
+border: 1px solid #B4FFD8;
+border-radius: 35px;
   `;
 
   export const InputP1 = styled.input.attrs(props => ({
-    type: "password"
+    type: "number"
   }))`
-  box-sizing: border-box;
-  padding: 10px;
-  position: absolute;
-    width: 358px;
-    height: 44px;
-    left: 16px;
-    top: 434px;
-  
-  border-radius: 15px;
+  /* Rectangle 68 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 171px;
+height: 32px;
+left: 203px;
+top: 230px;
+
+/* Main color */
+
+border: 1px solid #B4FFD8;
+border-radius: 35px;
   `;
   export const Re1 = styled.div`
     position: absolute;

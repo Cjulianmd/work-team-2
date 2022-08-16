@@ -31,10 +31,12 @@ function Filtrert (){
             ;console.log(event.target.telefono.value
             
             )}}>
-            <InputN  name="nombre" placeholder="nombre" size="2em"/>
-            <InputE name="email" placeholder="email" size="2em"   />
-            <InputT1 name="telefono" placeholder="phone number" size="2em" />
-            <InputP1 name="password" placeholder="Password" size="2em"  />
+               
+            <InputN  name="Select cagegory" placeholder="Select cagegory" size="2em"/>
+            <InputE name="Select Location" placeholder="Select Location" size="2em"   />
+            <InputT1 name="From" placeholder="From" size="2em" />
+            <InputP1 name="To" placeholder="To" size="2em"  />
+
          </form>
          <BtNext onClick={() => this.registrer()}><center><BtpreN>Show</BtpreN></center></BtNext>
                 <ApBar/>
