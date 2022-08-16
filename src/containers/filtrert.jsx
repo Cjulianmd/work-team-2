@@ -3,7 +3,7 @@ import React from 'react';
 import { TextC, InputE, InputP1, BtNext, BtpreN, Back  } from '../style/StyleGlobal'
 import {NavLink} from 'react-router-dom'
 import ApBar from '../components/apbar'
-import { TitleC, InputN, InputT1 } from '../style/StyleGlobal';
+import {  InputN, InputT1 } from '../style/StyleGlobal';
 import { Textacon1 } from './../style/StyleGlobal';
 import r5 from '../assets/img/flecha.svg'
 import r6 from '../assets/img/flecha1.svg'
