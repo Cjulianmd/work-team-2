@@ -21,20 +21,14 @@ export const Tab = styled.div`
 
 `
 export const Img1 = styled.div`
-    backgroud-image: linear-gradient(315deg, blue 0%, blue 100%,)
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    position: absolute;
-    width: 170px;
-    left: calc(50% - 170px/2);
-    top: 41.79%;
-    bottom: 41.86%;
-    height: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+/* Logo */
+
+
+position: absolute;
+left: 28.97%;
+right: 28.97%;
+top: 27.25%;
+bottom: 53.32%;
     
     
 `
@@ -67,55 +61,65 @@ export const ButtonN = styled.div`
 
 `
 export const TitleN = styled.div`
-    position: absolute;
-    left: 4.1%;
-    right: 16.15%;
-    top: 70.85%;
-    bottom: 25.71%;
+/* Choose */
 
-    font-family: 'Inter';sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    /* identical to box height */
 
-    text-align: center;
-    letter-spacing: -0.3px;
+position: absolute;
+width: 56px;
+height: 19px;
+left: 167px;
+top: 470px;
 
-    /* Dark color */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
 
-    color: #4B4B4B;
+text-align: center;
+letter-spacing: -0.3px;
+
+/* Main dark color */
+
+color: #474747;
+
 
 
 `
 
 export const TextN = styled.div`
+/* Choose products available add to favorites and then buy */
 
-    position: absolute;
-    left: 6.1%;
-    right: 16.15%;
-    top: 75%;
-    bottom: 20.97%;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: -0.3px;
+position: absolute;
+width: 187px;
+height: 32px;
+left: 102px;
+top: 490px;
 
-    /* Dark color */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: -0.3px;
 
-    color: #4B4B4B;
+/* Main dark color */
+
+color: #474747;
 `
 
 export const SliderN = styled.div`
-    position: absolute;
-    left: 6.1%;
-    right: 80.35%;
-    top: 79.80%;
-    bottom: 16.11%;
+/* Slider */
+
+
+position: absolute;
+width: 60px;
+height: 9px;
+left: 165px;
+top: 747px;
 `
 export const TitleB = styled.div`
     /* Welcome back */
@@ -901,19 +905,19 @@ color: #4B4B4B;
 `
 export const BtNext = styled.div`
 
-/* Rectangle 1 */
+/* Rectangle 47 */
 
 
 position: absolute;
-left: 4.1%;
-right: 4.1%;
-top: 87.68%;
-bottom: 7.11%;
+width: 358px;
+height: 32px;
+left: 16px;
+top: 772px;
 
-/* Main color (gradient) */
+/* Main color */
 
-background: linear-gradient(92.67deg, #BFC3FC 0.11%, #A2C3FC 100%);
-border-radius: 15px;
+background: #B4FFD8;
+border-radius: 109px;
 `
 
 export const BoxPre = styled.div`
