@@ -21,20 +21,14 @@ export const Tab = styled.div`
 
 `
 export const Img1 = styled.div`
-    backgroud-image: linear-gradient(315deg, blue 0%, blue 100%,)
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    position: absolute;
-    width: 170px;
-    left: calc(50% - 170px/2);
-    top: 41.79%;
-    bottom: 41.86%;
-    height: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+/* Logo */
+
+
+position: absolute;
+left: 28.97%;
+right: 28.97%;
+top: 27.25%;
+bottom: 53.32%;
     
     
 `
@@ -67,55 +61,65 @@ export const ButtonN = styled.div`
 
 `
 export const TitleN = styled.div`
-    position: absolute;
-    left: 4.1%;
-    right: 16.15%;
-    top: 70.85%;
-    bottom: 25.71%;
+/* Choose */
 
-    font-family: 'Inter';sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    /* identical to box height */
 
-    text-align: center;
-    letter-spacing: -0.3px;
+position: absolute;
+width: 56px;
+height: 19px;
+left: 167px;
+top: 470px;
 
-    /* Dark color */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
 
-    color: #4B4B4B;
+text-align: center;
+letter-spacing: -0.3px;
+
+/* Main dark color */
+
+color: #474747;
+
 
 
 `
 
 export const TextN = styled.div`
+/* Choose products available add to favorites and then buy */
 
-    position: absolute;
-    left: 6.1%;
-    right: 16.15%;
-    top: 75%;
-    bottom: 20.97%;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: -0.3px;
+position: absolute;
+width: 187px;
+height: 32px;
+left: 102px;
+top: 490px;
 
-    /* Dark color */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: -0.3px;
 
-    color: #4B4B4B;
+/* Main dark color */
+
+color: #474747;
 `
 
 export const SliderN = styled.div`
-    position: absolute;
-    left: 6.1%;
-    right: 80.35%;
-    top: 79.80%;
-    bottom: 16.11%;
+/* Slider */
+
+
+position: absolute;
+width: 60px;
+height: 9px;
+left: 165px;
+top: 747px;
 `
 export const TitleB = styled.div`
     /* Welcome back */
@@ -261,28 +265,42 @@ text-fill-color: transparent;
 `
 
 export const InputN = styled.input.attrs(props => ({
-    type: "text"
+    type: "select"
   }))`
-  box-sizing: border-box;
-  padding: 10px;
-  position: absolute;
-    width: 358px;
-    height: 44px;
-    left: 16px;
-    top: 272px;
-  border-radius: 15px;
+  /* Rectangle 65 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 358px;
+height: 32px;
+left: 16px;
+top: 114px;
+
+/* Main color */
+
+border: 1px solid #B4FFD8;
+border-radius: 151px;
   `;
   export const InputE = styled.input.attrs(props => ({
-    type: "text"
+    type: "select"
   }))`
+  /* Rectangle 66 */
+
+
   box-sizing: border-box;
-  padding: 10px;
+  
   position: absolute;
-    width: 358px;
-    height: 44px;
-    left: 16px;
-    top: 326px;
-  border-radius: 15px;
+  width: 358px;
+  height: 32px;
+  left: 16px;
+  top: 156px;
+  
+  /* Main color */
+  
+  border: 1px solid #B4FFD8;
+  border-radius: 151px;
   `;
   
   export const TitleC = styled.div`
@@ -339,27 +357,37 @@ export const InputT1 = styled.input.attrs(({
     type: "number"
   }))`
   box-sizing: border-box;
-    padding: 10px;
-    position: absolute;
-        width: 358px;
-        height: 44px;
-        left: 16px;
-        top: 380px;
-    border-radius: 15px;
+
+position: absolute;
+width: 171px;
+height: 32px;
+left: 16px;
+top: 230px;
+
+/* Main color */
+
+border: 1px solid #B4FFD8;
+border-radius: 35px;
   `;
 
   export const InputP1 = styled.input.attrs(props => ({
-    type: "password"
+    type: "number"
   }))`
-  box-sizing: border-box;
-  padding: 10px;
-  position: absolute;
-    width: 358px;
-    height: 44px;
-    left: 16px;
-    top: 434px;
-  
-  border-radius: 15px;
+  /* Rectangle 68 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 171px;
+height: 32px;
+left: 203px;
+top: 230px;
+
+/* Main color */
+
+border: 1px solid #B4FFD8;
+border-radius: 35px;
   `;
   export const Re1 = styled.div`
     position: absolute;
@@ -396,11 +424,11 @@ export const InputT1 = styled.input.attrs(({
 
   `
   export const Re5 = styled.div`
-  position: absolute;
-    width: 417px;
-    height: 266px;
-    left: 15px;
-    top: 458px;
+  position: unset;
+  width: 800px;
+  height: 220px;
+  left: 0px;
+  top: 0px;
 
   `
   export const Re3 = styled.div`
@@ -690,16 +718,16 @@ export const Apbari = styled.div`
 
 export const Apbari2 = styled.div`
   position: absolute;
-  left: 33.33%;
-  right: 61.54%;
+  left: 25.33%;
+  right: 30.54%;
   top: 20.26%;
   bottom: 1.9%;
   
 `
 export const Apbari3 = styled.div`
   position: absolute;
-  left: 60.51%;
-  right: 33.33%;
+  left: 65.51%;
+  right: 25.33%;
   top: 20.26%;
   bottom: 1.9%;
 
@@ -710,6 +738,15 @@ export const Apbari4 = styled.div`
   position: absolute;
   left: 88.72%;
   right: 5.9%;
+  top: 20.26%;
+  bottom: 1.9%;
+  
+`
+export const Apbari5 = styled.div`
+  
+position: absolute;
+  left: 45.72%;
+  right: 40.9%;
   top: 20.26%;
   bottom: 1.9%;
   
@@ -901,19 +938,19 @@ color: #4B4B4B;
 `
 export const BtNext = styled.div`
 
-/* Rectangle 1 */
+/* Rectangle 47 */
 
 
 position: absolute;
-left: 4.1%;
-right: 4.1%;
-top: 87.68%;
-bottom: 7.11%;
+width: 358px;
+height: 32px;
+left: 16px;
+top: 772px;
 
-/* Main color (gradient) */
+/* Main color */
 
-background: linear-gradient(92.67deg, #BFC3FC 0.11%, #A2C3FC 100%);
-border-radius: 15px;
+background: #B4FFD8;
+border-radius: 109px;
 `
 
 export const BoxPre = styled.div`
@@ -1318,4 +1355,140 @@ padding: 15px 0;
 background: linear-gradient(92.67deg, #BFC3FC 0.11%, #A2C3FC 100%);
 opacity: 0.5;
 border-radius: 15px;
+`
+export const Textin = styled.div`
+
+/* Macbook air 2015 core i3 */
+
+
+position: absolute;
+width: 150px;
+height: 16px;
+left: 16px;
+top: 255px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #000000;
+`
+export const Precio = styled.div`
+
+/* 759 $ */
+
+
+position: absolute;
+width: 40px;
+height: 19px;
+left: 16px;
+top: 277px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.3px;
+
+/* Main dark color */
+
+color: #474747;
+
+`
+export const Btninfo1 = styled.div`
+
+/* Call button */
+
+
+position: absolute;
+width: 171px;
+height: 32px;
+left: 16px;
+top: 312px;
+
+`
+export const Btninfo2 = styled.div`
+
+position: absolute;
+width: 171px;
+height: 32px;
+left: 203px;
+top: 312px;
+
+`
+export const TitleD = styled.div`
+
+/* Description */
+
+
+position: absolute;
+width: 70px;
+height: 16px;
+left: 160px;
+top: 360px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #000000;
+
+
+`
+export const TextD = styled.div`
+
+/* Description */
+
+
+position: absolute;
+width: 358px;
+height: 180px;
+left: 16px;
+top: 392px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: -0.3px;
+
+/* Main dark color */
+
+color: #474747;
+
+
+`
+export const MapD = styled.div`
+
+
+position: absolute;
+width: 358px;
+height: 80px;
+left: 16px;
+top: 614px;
+;
+
+
+`
+export const MapD2 = styled.div`
+
+position: absolute;
+width: 358px;
+height: 176px;
+left: 16px;
+top: 710px;
+
 `
