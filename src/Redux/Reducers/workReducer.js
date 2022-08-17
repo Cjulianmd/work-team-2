@@ -7,7 +7,7 @@ export const workReducer = ( state = [], action ) => {
         return [...state, action.payload ];
 
         case workTypes.read:
-            return action.payload
+            return {Cita: [action.payload]}
 
         case workTypes.delete:
             return state.filter( date => date.email !== action.payload )
