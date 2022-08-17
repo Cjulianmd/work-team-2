@@ -20,7 +20,7 @@ import { useSelector, useDispatch } from 'react-redux';
 export const Home1 = () => {
 
 
-const {products} = useSelector(state => state.workouts)
+const {Cita} = useSelector(state => state.workouts)
 
 const dispatch = useDispatch();
 
@@ -28,13 +28,13 @@ useEffect(() => {
   
 dispatch( listaProductosAsync ())
 
-},[])
+},[dispatch])
 
 
 
 useEffect(() => {
-console.log(products)
-},[products])
+console.log(Cita)
+},[ Cita])
 //         //hooks
 // const [ejercicios1, setejercicios1]= useState([])
 // // const [ejercicios2, setejercicios2] = useState([])
@@ -94,7 +94,7 @@ console.log(products)
 
 
 {
- products?.map(elemento=>(   
+ Cita?.map(elemento=>(   
 <div className="col-12 mt-4">
 <div className="container d-flex" Style="justify-content: center;aling-items:center;">
 <Container1>
